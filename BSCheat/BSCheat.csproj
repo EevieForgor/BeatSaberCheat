@@ -95,6 +95,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HarmonyPatches\Accuracy\CenterDistance.cs" />
     <Compile Include="HarmonyPatches\Swing\Postswing.cs" />
     <Compile Include="HarmonyPatches\Swing\Preswing.cs" />
     <Compile Include="Plugin.cs" />
