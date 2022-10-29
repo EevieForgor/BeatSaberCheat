@@ -12,7 +12,7 @@ namespace BSCheat.HarmonyPatches.Swing
     /// <summary>
     /// This patches ClassToPatch.MethodToPatch(Parameter1Type arg1, Parameter2Type arg2)
     /// </summary>
-    [HarmonyPatch(typeof(SaberSwingRating), "BeforeCutStepRating")]
+    [HarmonyPatch(typeof(SaberSwingRating), "AfterCutStepRating")]
     public class Postswing
     {
         static void Postfix(ref float __result)
