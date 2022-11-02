@@ -59,7 +59,7 @@ namespace BSCheat
         public void OnEnable()
         {
             new GameObject("BSCheatController").AddComponent<BSCheatController>();
-            //ApplyHarmonyPatches();
+            ApplyHarmonyPatches();
         }
 
         /// <summary>
